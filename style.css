@@ -92,13 +92,14 @@ td, th{
     border: 4px solid black;
 }
 
-.grey{
+th:nth-child(odd), td:nth-child(odd){
     background-color: grey;
 }
 
-.white{
+th:nth-child(even), td:nth-child(even){
     background-color: white;
 }
+
 
 /* POSITIONING */
 
@@ -111,7 +112,7 @@ td, th{
 }
 
 .margin-3{
-    margin-left:3;
+    margin-left:3px;
     margin-right:0;
 }
 
@@ -131,3 +132,8 @@ td, th{
     right:0;
     bottom:0;
   }
+
+
+
+    
+
