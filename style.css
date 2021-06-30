@@ -119,3 +119,15 @@ td, th{
 .preamble{
     display: inline-block;
 }
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position : fixed;
+    right:0;
+    bottom:0;
+  }
